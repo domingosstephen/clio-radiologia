@@ -8,11 +8,11 @@ interface GalleryImage {
 }
 
 const images: GalleryImage[] = [
-  { src: '/images/gallery-1.webp', alt: 'Equipe da clinica odontologica', caption: 'Nossa Equipe' },
-  { src: '/images/gallery-2.webp', alt: 'Consultorio equipado com tecnologia moderna', caption: 'Tecnologia de Ponta' },
-  { src: '/images/gallery-3.webp', alt: 'Sala de espera elegante e confortavel', caption: 'Conforto e Elegancia' },
-  { src: '/images/gallery-4.webp', alt: 'Consultorio com ambiente acolhedor', caption: 'Ambiente Acolhedor' },
-  { src: '/images/gallery-5.webp', alt: 'Fachada da clinica odontologica', caption: 'Nossa Clinica' },
+  { src: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80', alt: 'Equipamento de radiologia digital', caption: 'Radiologia Digital' },
+  { src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80', alt: 'Diagnostico por imagem avancado', caption: 'Diagnostico Avancado' },
+  { src: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80', alt: 'Consultorio com tecnologia moderna', caption: 'Tecnologia Moderna' },
+  { src: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80', alt: 'Instrumentos de precisao', caption: 'Alta Precisao' },
+  { src: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80', alt: 'Recepcao confortavel', caption: 'Recepcao Acolhedora' },
 ];
 
 export default function Gallery() {
